@@ -5,3 +5,22 @@ description: "Digging through new stuff everyday"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
+search_full_content: true
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+# Site Author
+author:
+  name: "Arpeet Rathi"
+  picture:
+  email: "r.arpeet82@gmail.com"
+  twitter: "RathiArpeet"
+  links:
+    - title:
+      url:
+      icon:
